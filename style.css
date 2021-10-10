@@ -1,0 +1,83 @@
+.animation1{
+    width: 150px;
+    height:150px;
+    background: tomato;
+    color: white;
+    font-family: arial black;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    animation-name: rohan;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    border-radius: 100%;
+    text-transform: uppercase;
+}
+@keyframes rohan{
+    from{margin-left: 0px;}
+    to{margin-left: 1000px;}
+}
+.animation2{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px; 
+    background: tomato;
+    color: white;
+    font-family: arial black;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    animation-name: rohan;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+@keyframes rohan{
+    from{margin-left: 0px;}
+    to{margin-left: 1000px;}
+}
+.animation3{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px; 
+    background: tomato;
+    color: white;
+    font-family: arial black;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    animation-name: rohan;
+    animation-duration:7.5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    border-radius: 30%;
+    text-transform: uppercase;
+}
+@keyframes rohan{
+    from{margin-left: 0px;}
+    to{margin-left: 1000px;}
+}
+.animation4{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px; 
+    background: tomato;
+    color: white;
+    font-family: arial black;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    animation-name: rohan;
+    animation-duration:9s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+@keyframes rohan{
+    from{margin-left: 0px;}
+    to{margin-left: 1000px;}
+}
